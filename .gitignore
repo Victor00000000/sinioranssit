@@ -1,12 +1,12 @@
 # ignore everything in the root except the "wp-content" directory.
-!app/public/wp-content/
-
+app/public/*
+conf/
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-app/public/wp-content/*
-!app/public/wp-content/mu-plugins/
-!app/public/wp-content/plugins/
-!app/public/wp-content/themes/
+!app/public/wp-content/
+!app/public/wp-content/mu-plugins/*
+!app/public/wp-content/plugins/*
+!app/public/wp-content/themes/*
 
 # ignore these plugins
 app/public/wp-content/plugins/hello.php
