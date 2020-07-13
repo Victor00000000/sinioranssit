@@ -12,7 +12,7 @@
   <div class="full-width-split group">
     <div class="full-width-split__one">
       <div class="full-width-split__inner">
-        <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
+        <h2 class="headline headline--small-plus t-center">Tulevat tapahtumat</h2>
         <?php 
           $today = date('Ymd');
           $homepageEvents = new WP_Query(array(
@@ -37,13 +37,13 @@
           }
         ?>
         
-        <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event') ?>" class="btn btn--blue">View All Events</a></p>
+        <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event') ?>" class="btn btn--blue">Katso kaikki tapahtumat</a></p>
 
       </div>
     </div>
     <div class="full-width-split__two">
       <div class="full-width-split__inner">
-        <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
+        <h2 class="headline headline--small-plus t-center">Tähän jotain?</h2>
         <?php
           $homepagePosts = new WP_Query(array(
             'posts_per_page' => 2
