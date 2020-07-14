@@ -107,3 +107,10 @@
     margin-right: 0;
   }
 }
+
+.site-header .logo {
+  width: 50px;
+  margin-top:-15px;
+  margin-left:20px;
+
+}
