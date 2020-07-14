@@ -40,7 +40,7 @@
         <div class="site-footer__col-four">
           <nav>
             <ul class="min-list social-icons-list group">
-              <li><a href="https://www.facebook.com/sinioranssit" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/sinioranssit" class="social-color-facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/sinioranssit" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="https://www.youtube.com/channel/UC_UrA8bv5d7HDxNfQlsJsWA" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
               <li><a href="https://www.instagram.com/sinioranssit_virallinen/" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
