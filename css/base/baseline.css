@@ -38,7 +38,7 @@ a:hover {
 
 p, ul, ol {
   margin: 0 0 1.65em 0;
-  color: white;
+  color: $blue;
 }
 
 p, li {
