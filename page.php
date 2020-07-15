@@ -4,7 +4,9 @@
 
   while(have_posts()) {
     the_post();
-    pageBanner();
+    pageBanner(array(
+      'title'
+    ));
      ?>
     
     
@@ -27,6 +29,7 @@
       'child_of' => get_the_ID()
     ));
 
+   //sidelinkbar, which appears if the page has childpages
     if ($theParent or $testArray) { ?>
     <div class="page-links">
       <h2 class="page-links__title"><a href="<?php echo get_permalink($theParent); ?>"><?php echo get_the_title($theParent); ?></a></h2>
