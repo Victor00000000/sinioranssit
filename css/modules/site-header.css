@@ -109,8 +109,9 @@
 }
 
 .site-header .logo {
-  width: 50px;
+  width: 300px;
   margin-top:-15px;
   margin-left:20px;
+  float: left;
 
 }
