@@ -1,5 +1,5 @@
 {
-  "scripts.css": "styles.29fb0575acec67dee99a.css",
-  "scripts.js": "scripts.29fb0575acec67dee99a.js",
-  "vendors~scripts.js": "vendors~scripts.b2903539c78f3822bcf5.js"
+  "scripts.css": "styles.custom.css",
+  "scripts.js": "scripts.custom.js",
+  "vendors~scripts.js": "vendors~scripts.custom.js"
 }

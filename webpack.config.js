@@ -114,15 +114,15 @@ if (currentTask == "build" || currentTask == "buildWatch") {
   postCSSPlugins.push(require("cssnano"))
   config.output = {
     publicPath: "/wp-content/themes/sinioranssit/bundled-assets/",
-    filename: "[name].[chunkhash].js",
-    chunkFilename: "[name].[chunkhash].js",
+    filename: "[name].custom.js",
+    chunkFilename: "[name].custom.js",
     path: path.resolve(__dirname, "bundled-assets")
   }
   config.mode = "production"
   config.optimization = {
     splitChunks: { chunks: "all" }
   }
-  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.[chunkhash].css" }), new ManifestPlugin({ publicPath: "" }), new RunAfterCompile())
+  config.plugins.push(new CleanWebpackPlugin(), new MiniCssExtractPlugin({ filename: "styles.custom.css" }), new ManifestPlugin({ publicPath: "" }), new RunAfterCompile())
 }
 
 module.exports = config
