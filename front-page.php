@@ -4,9 +4,9 @@
   <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/testi.png') ?>);"></div>
     <div class="page-banner__content container t-center c-white">
       <h1 class="headline headline--large">Tervetuloa</h1>
-      <h2 class="headline headline--medium">sinioranssien virallisille sivuille.</h2>
+      <h2 class="headline headline--medium">Sinioranssien virallisille sivuille.</h2>
       <h3 class="headline headline--small">Liity faniseuran jäseneksi saadaksesi loistavat edut!</h3>
-      <a href="<?php echo get_post_type_archive_link('program'); ?>" class="btn btn--large btn--blue">Liity Jäseneksi</a>
+      <a href="<?php echo get_post_type_archive_link('program'); ?>" class="btn btn--large btn--orange front-page-btn">Liity jäseneksi</a>
     </div>
   </div>
   <div class="full-width-split group">
@@ -43,7 +43,7 @@
     </div>
     <div class="full-width-split__two">
       <div class="full-width-split__inner">
-        <h2 class="headline headline--small t-center">Tähän jotain?</h2>
+        <h2 class="headline headline--small t-center">Ajankohtaista</h2>
         <?php
           $homepagePosts = new WP_Query(array(
             'posts_per_page' => 2
@@ -78,30 +78,30 @@
   <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
     <div class="glide__slides">
-    <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg'); ?>);">
+    <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/hero-slider-1.jpg'); ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Transportation</h2>
-        <p class="t-center">All students have free unlimited bus fare.</p>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+        <h2 class="headline headline--medium t-center">Yhteistyökumppani 1</h2>
+        <p class="hero-slider-small-text">Olemme hengessä mukana!</p>
+        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
       </div>
     </div>
   </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg'); ?>);">
+  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/hero-slider-2.jpg'); ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-        <p class="t-center">Our dentistry program recommends eating apples.</p>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+        <h2 class="headline headline--medium t-center">Yhteistyökumppani 2</h2>
+        <p class="hero-slider-small-text">Olemme hengessä mukana!</p>
+        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
       </div>
     </div>
   </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg'); ?>);">
+  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/hero-slider-3.jpg'); ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Food</h2>
-        <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+        <h2 class="headline headline--medium t-center">Yhteistyökumppani 3</h2>
+        <p class="hero-slider-small-text">Olemme hengessä mukana!</p>
+        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
       </div>
     </div>
   </div>

@@ -45,4 +45,10 @@
   &__intro p {
     margin: 0;
   }
+
+  /* "liity jaseneksi" button */
+  .front-page-btn {
+    color: white; /*7D3200 */
+    background-color: $orange;
+  }
 }
