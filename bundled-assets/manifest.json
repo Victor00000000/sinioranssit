@@ -1,0 +1,5 @@
+{
+  "scripts.css": "styles.custom.css",
+  "scripts.js": "scripts.custom.js",
+  "vendors~scripts.js": "vendors~scripts.custom.js"
+}

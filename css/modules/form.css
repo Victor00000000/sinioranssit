@@ -1,0 +1,19 @@
+.generic-content p {
+  color: black;
+}
+
+table.pdb-signup {
+  margin: 0 auto;
+}
+
+.pdb-thanks p {
+  color: green;
+}
+
+.field-group-submit tr {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
