@@ -18,9 +18,10 @@
     }
   }
 
+  /* Front-page events section */
   &__two {
     flex: 1;
-    background-color: $blue;
+    background-color: #F2F0ED;
     padding: 1.6rem 16px;
     @mixin atMedium {
       padding: 40px;
