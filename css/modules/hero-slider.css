@@ -22,7 +22,7 @@
 
   &__overlay {
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.68);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     color: #fff;
     @mixin atMedium {
@@ -108,5 +108,11 @@
 
   button.glide__bullet--active {
     background-color: #fff;
+  }
+
+  .hero-slider-small-text {
+    color: white !important;
+    text-align: center;
+
   }
 }
