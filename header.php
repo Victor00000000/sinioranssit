@@ -8,8 +8,9 @@
   <body <?php body_class(); ?>>
     <header class="site-header">
     <div class="container">
-      <!--<h1 class="school-logo-text float-left"><a href="<?php echo site_url() ?>"><strong>Sini</strong>Oranssit</a></h1> --> <!-- old header text commented out -->
-      <a href="<?php echo site_url() ?>"> <img class ="logo float-left" src="<?php echo get_theme_file_uri('/images/sinioranssit_header.png') ?>" alt="sinioranssit"></a> <!-- SINIORANSSIT header text --> 
+    <a href="<?php echo site_url() ?>"> <img class ="logo float-left" src="<?php echo get_theme_file_uri('/images/sinioranssit_logo.png') ?>" alt="sinioranssit"> </a>
+      <!--<h1 class="school-logo-text float-left"><a href="<?php echo site_url() ?>"><strong>Sini</strong>Oranssit</a></h1> <!-- old header text commented out -->
+      <!-- <a href="<?php echo site_url() ?>"> <img class ="logo-text float-left" src="<?php echo get_theme_file_uri('/images/sinioranssit_header.png') ?>" alt="sinioranssit"></a> -->
       <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
       <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
       <div class="site-header__menu group">
