@@ -33,10 +33,14 @@
                 <li><a href="#">Careers</a></li>
               </ul>
             </nav>
+            <div class="footer-contact-us">
+                <p>sinioranssit@sinioranssit.fi</p>
+            </div>
           </div>
         </div>
 
         <div class="site-footer__col-four">
+        <h3 class="headline headline--x-small">Seuraa meitä</h3>
           <nav>
             <ul class="min-list social-icons-list group">
               <li><a href="https://www.facebook.com/sinioranssit" class="social-color-facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>

@@ -1,13 +1,23 @@
 .site-footer {
   padding: 2rem 0 3.5rem 0;
   background-image: linear-gradient(#FFF, #ECECEC);
+  
+
+  /* sinioranssit@sinioranssit.fi */
+  .footer-contact-us {
+    padding-top: 3em;
+  }
+
+  .hero-slider-small-text {
+    color: white !important;
+  }
 
   p {
     font-size: .9rem;
   }
 
   .logo-footer {
-    height: 200px;
+    height: 190px;
     padding-bottom: 6%;
   }
 
@@ -45,9 +55,10 @@
     width: 100%;
     margin: 0 auto;
     @mixin atMedium {
+      padding-top: 1em;
       text-align: left;
       float: left;
-      width: 42%;
+      width: 50%; /*42% */
       margin: 0;
     }
   }
@@ -67,7 +78,6 @@
 
   /* Social media icons div */
   &__col-four {
-    padding-top: 20px;
     width: 100%;
     margin: 0 auto;
     clear: both;
