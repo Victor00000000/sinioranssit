@@ -5,8 +5,9 @@
   padding-bottom: 1px;
   margin-bottom: 20px;
 
+  /* Ajankohtaista post header */
   &__title a {
-    color: white;
+    color: $blue;
   }
 
   &__date {
