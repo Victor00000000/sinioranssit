@@ -43,7 +43,7 @@
     </div>
     <div class="full-width-split__two">
       <div class="full-width-split__inner">
-        <h2 class="headline headline--small t-center">Ajankohtaista</h2>
+        <h2 class="headline headline--small-plus t-center">Ajankohtaista</h2>
         <?php
           $homepagePosts = new WP_Query(array(
             'posts_per_page' => 2
