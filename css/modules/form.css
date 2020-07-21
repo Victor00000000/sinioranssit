@@ -32,6 +32,12 @@ tr.text-line {
   color: black
 }
 
+/* Helper texts*/
+th {
+  padding-right: 10px;
+}
+
+/* input fields */
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -42,14 +48,23 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit]:hover {
-  background-color: #953C01;
+table {
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
+/* input button hover */
+input[type=submit]:hover {
+  background-color: #FE8E43;
+}
+
+/* helptext "Etunimi Sukunimi" */
 .helptext {
   color: gray;
 }
 
-tbody.field-group-field-main {
-  width: 70%;
+/* text input fields */
+#pdb-fullname-2, #pdb-email-2, #pdb-phone-2, #pdb-country-2{
+  width: 300px;
 }
