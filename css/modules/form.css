@@ -17,3 +17,39 @@ table.pdb-signup {
 input {
   width: 100%;
 }
+
+/* "Liity" button */
+.pdb-submit {
+  height: 40px;
+  background-color: $orange;
+  margin: 20px;
+  border-radius: 6px;
+  border: none;
+
+}
+
+tr.text-line {
+  color: black
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #953C01;
+}
+
+.helptext {
+  color: gray;
+}
+
+tbody.field-group-field-main {
+  width: 70%;
+}
