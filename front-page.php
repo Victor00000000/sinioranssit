@@ -82,7 +82,6 @@
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
         <h2 class="headline headline--medium t-center">Yhteistyökumppani 1</h2>
-        <p class="hero-slider-small-text">Olemme hengessä mukana!</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
       </div>
     </div>
@@ -91,7 +90,6 @@
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
         <h2 class="headline headline--medium t-center">Yhteistyökumppani 2</h2>
-        <p class="hero-slider-small-text">Olemme hengessä mukana!</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
       </div>
     </div>
@@ -100,7 +98,6 @@
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
         <h2 class="headline headline--medium t-center">Yhteistyökumppani 3</h2>
-        <p class="hero-slider-small-text">Olemme hengessä mukana!</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
       </div>
     </div>

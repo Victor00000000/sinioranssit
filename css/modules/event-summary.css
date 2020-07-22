@@ -5,7 +5,7 @@
   padding-bottom: 1px;
   margin-bottom: 20px;
 
-  /* Ajankohtaista post header */
+  /* Ajankohtaista/uutiset post header */
   &__title a {
     color: $blue;
   }

@@ -109,10 +109,4 @@
   button.glide__bullet--active {
     background-color: #fff;
   }
-
-  .hero-slider-small-text {
-    color: white !important;
-    text-align: center;
-
-  }
 }
