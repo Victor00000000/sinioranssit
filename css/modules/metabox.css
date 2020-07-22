@@ -1,5 +1,5 @@
 .metabox {
-  background-color: $beige;
+  background-color: $orange;
   border-radius: 3px;
   padding: 10px 15px;
   display: inline-block;
@@ -23,11 +23,11 @@
   p {
     margin: 0;
     font-size: .9rem;
-    color: color($beige l(-45%) s(-33%));
+    color: black;
   }
 
   a {
-    color: color($beige l(-45%) s(-33%));
+    color: black;
     text-decoration: none;
     font-weight: bold;
   }

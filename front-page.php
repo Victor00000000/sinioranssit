@@ -62,7 +62,7 @@
                     echo get_the_excerpt();
                   } else {
                     echo wp_trim_words(get_the_content(), 18);
-                    } ?> <a href="<?php the_permalink(); ?>" class="nu gray">Read more</a></p>
+                    } ?> <a href="<?php the_permalink(); ?>" class="nu gray">Lue lisää</a></p>
               </div>
             </div>
           <?php } wp_reset_postdata();
@@ -70,7 +70,7 @@
 
         
         
-        <p class="t-center no-margin"><a href="<?php echo site_url('/blog'); ?>" class="btn btn--yellow">View All Blog Posts</a></p>
+        <p class="t-center no-margin"><a href="<?php echo site_url('/ajankohtaista'); ?>" class="btn btn--yellow">Katso kaikki uutiset</a></p>
       </div>
     </div>
   </div>
