@@ -20,7 +20,7 @@
             <li <?php if (is_page('liity-jaseneksi')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/liity-jaseneksi') ?>">Liity jäseneksi</a></li>
             <li <?php if (is_page('tapahtumat')) echo 'class="current-menu-item"';  ?>><a href="<?php echo site_url('/tapahtumat') ?>">Tapahtumat</a></li>
             <li <?php if (is_page('kuvagalleria')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/kuvagalleria') ?>">Kuvagalleria</a></li>
-            <li <?php if (is_home('ajankohtaista')) echo 'class="current-menu-item"'; ?>><a href="<?php echo site_url('/ajankohtaista') ?>">Ajankohtaista</a></li>
+            <li <?php if (is_home('ajankohtaista')) echo 'class="current-menu-item"'; ?>><a href="<?php echo site_url('/ajankohtaista') ?>">Uutiset</a></li>
             <li <?php if (is_page('ota-yhteytta')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/ota-yhteytta'); ?>">Ota yhteyttä!</a></li>
           </ul>
         </nav>
