@@ -68,3 +68,7 @@ input[type=submit]:hover {
 #pdb-fullname-2, #pdb-email-2, #pdb-phone-2, #pdb-country-2{
   width: 300px;
 }
+
+.reqd {
+  color: red;
+}
