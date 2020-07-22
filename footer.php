@@ -30,7 +30,6 @@
             <nav class="nav-list">
               <ul>
                 <li><a href="<?php echo site_url('/ota-yhteyttä') ?>">Ota yhteyttä</a></li>
-                <li><a href="#">Careers</a></li>
               </ul>
             </nav>
             <div class="footer-contact-us">
