@@ -2,7 +2,7 @@
 
 get_header();
 pageBanner(array(
-  'title' => 'Ajankohtaista',
+  'title' => 'Uutiset',
   'subtitle' => 'Täältä löydät sinioranssien tuoreimpia tiedotteita ja uutisia.'
 ));
  ?>
