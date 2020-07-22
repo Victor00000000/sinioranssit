@@ -1,0 +1,4 @@
+.page-section {
+  /* substract header height, footer height and contents padding from full viewport height */
+  min-height: calc(100vh - 326px - 350px - 112px);
+}
