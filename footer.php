@@ -33,7 +33,7 @@
               </ul>
             </nav>
             <div class="footer-contact-us">
-                <p>sinioranssit@sinioranssit.fi</p>
+                <p>info@sinioranssit.fi</p>
             </div>
           </div>
         </div>
