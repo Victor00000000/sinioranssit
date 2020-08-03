@@ -32,14 +32,14 @@ tr.text-line {
   color: black
 }
 
-/* Helper texts*/
+/* Helper texts */
 th {
   padding-right: 10px;
 }
 
-/* input fields */
+/* input fields and search bar */
 input[type=text], select {
-  width: 100%;
+  width: 91%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
