@@ -5,7 +5,7 @@
     <div class="page-banner__content container t-center c-white">
       <h1 class="headline headline--large">Tervetuloa</h1>
       <h2 class="headline headline--medium">Sinioranssien virallisille sivuille.</h2>
-      <h3 class="headline headline--small">Liity faniseuran jäseneksi saadaksesi loistavat edut!</h3>
+      <h3 class="headline headline--small">Liity kannattajaseuran jäseneksi saadaksesi loistavat edut!</h3>
         <a href="<?php echo site_url('/liity-jaseneksi'); ?>" class="btn btn--large btn--orange front-page-btn">Liity jäseneksi</a>
     </div>
   </div>
