@@ -11,33 +11,13 @@
   </div>
   <div class="full-width-split group">
     <div class="full-width-split__one">
-      <div class="full-width-split__inner">
-        <h2 class="headline headline--small-plus t-center">Tulevat tapahtumat</h2>
-        <?php 
-          $today = date('Ymd');
-          $homepageEvents = new WP_Query(array(
-            'posts_per_page' => 2,
-            'post_type' => 'event',
-            'meta_key' => 'event_date',
-            'orderby' => 'meta_value_num',
-            'order' => 'ASC',
-            'meta_query' => array(
-              array(
-                'key' => 'event_date',
-                'compare' => '>=',
-                'value' => $today,
-                'type' => 'numeric'
-              )
-            )
-          ));
+        <div class="full-width-split__inner">
+            <h2 class="headline headline--small-plus t-center">Tulevat tapahtumat</h2>
+            <?php 
+                dynamic_sidebar( 'widget1' )
+            ?>
 
-          while($homepageEvents->have_posts()) {
-            $homepageEvents->the_post();
-            get_template_part('template-parts/content', 'event');
-          }
-        ?>
-        
-        <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event') ?>" class="btn btn--blue">Katso kaikki tapahtumat</a></p>
+            <p class="t-center no-margin"><a href="<?php echo site_url('/tapahtumat') ?>" class="btn btn--blue">Katso kaikki tapahtumat</a></p>
 
       </div>
     </div>

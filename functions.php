@@ -97,3 +97,12 @@ function universityMapKey($api) {
 }
 
 add_filter('acf/fields/google_map/api', 'universityMapKey'); */
+
+function addWidgetsArea() {
+  register_sidebar( array(
+    'name' => 'Facebook Feed',
+    'id' => 'widget1'
+  ) );
+}
+
+add_action( 'widgets_init', 'addWidgetsArea' );

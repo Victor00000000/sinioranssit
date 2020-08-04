@@ -2,3 +2,23 @@
   /* substract header height, footer height and contents padding from full viewport height */
   min-height: calc(100vh - 326px - 350px - 112px);
 }
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.widget_text {
+  list-style: none;
+}
+
+.textwidget p iframe {
+  width: 320px;
+  height: 240px;
+}
+
+@media screen and (max-width: 425px) {
+  .generic-content iframe {
+    width: 100%;
+  }
+}
