@@ -14,7 +14,7 @@
         <div class="row group">
 
           <div class="one-third">
-            <?php the_post_thumbnail('professorPortrait'); ?>
+            <?php the_post_thumbnail('partneriPortrait'); ?>
           </div>
 
           <div class="two-thirds">

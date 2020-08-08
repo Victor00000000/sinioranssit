@@ -14,6 +14,10 @@ table.pdb-signup {
   text-align: center;
 }
 
+input {
+  width: 100%;
+}
+
 /* "Liity" button */
 .pdb-submit {
   height: 40px;
@@ -21,21 +25,21 @@ table.pdb-signup {
   margin: 20px;
   border-radius: 6px;
   border: none;
+
 }
 
 tr.text-line {
-  color: black;
+  color: black
 }
 
-/* Helper texts */
+/* Helper texts*/
 th {
   padding-right: 10px;
 }
 
-/* input fields and search bar */
-input[type="text"],
-select {
-  width: 91%;
+/* input fields */
+input[type=text], select {
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -51,8 +55,8 @@ table {
 }
 
 /* input button hover */
-input[type="submit"]:hover {
-  background-color: #fe8e43;
+input[type=submit]:hover {
+  background-color: #FE8E43;
 }
 
 /* helptext "Etunimi Sukunimi" */
@@ -61,10 +65,7 @@ input[type="submit"]:hover {
 }
 
 /* text input fields */
-#pdb-fullname-2,
-#pdb-email-2,
-#pdb-phone-2,
-#pdb-country-2 {
+#pdb-fullname-2, #pdb-email-2, #pdb-phone-2, #pdb-country-2{
   width: 300px;
 }
 

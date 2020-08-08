@@ -26,6 +26,8 @@
         <h2 class="headline headline--small-plus t-center">Uutiset</h2>
         <?php
           $homepagePosts = new WP_Query(array(
+            'orderby' => 'title',
+          'order' => 'ASC',
             'posts_per_page' => 2
           ));
 
@@ -87,7 +89,30 @@
       </div>
     </div>
   </div>
+  
+  <div class="">
+  <?php
+          $partneriPosts = new WP_Query(array(
+            'post_type' => 'partneri',
+            'orderby' => 'title',
+            'order' => 'ASC',
+          ));
 
+          while ($partneriPosts->have_posts()) {
+            $partneriPosts->the_post(); ?>
+
+            <div class="event-summary">
+              <div class="event-summary__content">
+              <div>
+              <a href="<?php echo '//www.' . wp_strip_all_tags(get_the_content()); ?>"> <?php the_post_thumbnail('partneriLandscape'); ?></a>
+              </div>
+              
+                <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+              </div>
+            </div>
+          <?php }
+        ?>
+  </div>
   <?php get_footer();
 
 ?>
