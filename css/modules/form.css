@@ -72,3 +72,25 @@ input[type=submit]:hover {
 .reqd {
   color: red;
 }
+
+/* Ota yhteyttä formi */
+.wpforms-form {
+  width: 80%;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.wpforms-submit {
+  height: 40px !important;
+  background-color: $orange !important;
+  margin: 20px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  color: black !important;
+}
+
+.wpforms-submit:hover {
+  background-color: #fe8e43 !important;
+}
