@@ -57,40 +57,9 @@
     </div>
   </div>
 
-  <div class="hero-slider">
-    <div data-glide-el="track" class="glide__track">
-    <div class="glide__slides">
-    <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/hero-slider-1.jpg'); ?>);">
-    <div class="hero-slider__interior container">
-      <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Yhteistyökumppani 1</h2>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/hero-slider-2.jpg'); ?>);">
-    <div class="hero-slider__interior container">
-      <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Yhteistyökumppani 2</h2>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/hero-slider-3.jpg'); ?>);">
-    <div class="hero-slider__interior container">
-      <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Yhteistyökumppani 3</h2>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Lue lisää</a></p>
-      </div>
-    </div>
-  </div>
-    </div>
-      <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]">
-      </div>
-    </div>
   </div>
   
-  <div class="">
+  <div class="viktor">
   <?php
           $partneriPosts = new WP_Query(array(
             'post_type' => 'partneri',
@@ -101,7 +70,7 @@
           while ($partneriPosts->have_posts()) {
             $partneriPosts->the_post(); ?>
 
-            <div class="event-summary">
+            <div class="event-summary t-center mopo">
               <div class="event-summary__content">
               <div>
               <a href="<?php echo '//www.' . wp_strip_all_tags(get_the_content()); ?>"> <?php the_post_thumbnail('partneriLandscape'); ?></a>

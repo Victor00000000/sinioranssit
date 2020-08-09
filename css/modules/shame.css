@@ -12,6 +12,15 @@
   background-color: #DEDEDE;
 }
 
+.mopo {
+
+}
+
+.viktor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .page-section {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
