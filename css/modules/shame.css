@@ -12,14 +12,38 @@
   background-color: #DEDEDE;
 }
 
-.mopo {
 
-}
-
-.viktor {
+/* holds all the partners
+    Aligns them in groups of five
+    aligns the content in mid
+    max-width makes them group accordingly */
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 150px auto 100px auto;
+  max-width: 1300px;
 }
+
+/* grid item adds margin bottom to separate the partners below*/
+.grid-item {
+  margin-bottom: 20px;
+}
+
+/* wp-post-image targets the partner images and makes them perfect squares for
+  uniformity purposes */
+.wp-post-image {
+  width: 200px;
+  height: 200px;
+}
+
+/* Had to use !important -command to align the text in mid.
+  Caution: if you change the properties of .wp-post-image
+  also change .partneri-mid accordingly*/
+.partner-mid {
+  margin-top: 100px !important;
+}
+
 
 .page-section {
   padding-top: 1.6rem;
