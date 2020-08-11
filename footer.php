@@ -1,16 +1,13 @@
 <footer class="site-footer">
-
     <div class="site-footer__inner container container--narrow">
-
       <div class="group">
-
+        <!-- footer logo image-->
         <div class="site-footer__col-one">
-        <img class ="logo-footer" src="<?php echo get_theme_file_uri('/images/sinioranssit_logo.png') ?>" alt="Sinioranssit logo">
+          <img class ="logo-footer" src="<?php echo get_theme_file_uri('/images/sinioranssit_logo.png') ?>" alt="Sinioranssit logo">
         </div>
 
-        
+        <!-- footer middle section -->
         <div class="site-footer__col-two-three-group">
-
           <div class="site-footer__col-three">
             <nav class="nav-list">
               <ul>
@@ -23,8 +20,9 @@
           </div>
         </div>
 
+        <!-- footer social media links / images -->
         <div class="site-footer__col-four">
-        <h3 class="headline headline--x-small">Seuraa meitä</h3>
+          <h3 class="headline headline--x-small">Seuraa meitä</h3>
           <nav>
             <ul class="min-list social-icons-list group">
               <li><a href="https://www.facebook.com/sinioranssit" class="social-color-facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
@@ -35,10 +33,10 @@
           </nav>
         </div>
       </div>
-
     </div>
   </footer>
 
+  <!-- search bar which appears after clicking search -icon -->
   <div class="search-overlay">
     <div class="search-overlay__top">
       <div class="container">
@@ -47,13 +45,10 @@
         <i class="fa fa-window-close search-overlay__close" aria-hidden="true"></i>
       </div>
     </div>
-    
     <div class="container">
       <div id="search-overlay__results"></div>
     </div>
-
   </div>
-
 <?php wp_footer(); ?>
 </body>
 </html>

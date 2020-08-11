@@ -18,11 +18,18 @@
     aligns the content in mid
     max-width makes them group accordingly */
 .grid-container {
+  /*
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
   margin: 150px auto 100px auto;
   max-width: 1300px;
+  align-items: justify;
+  */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: justify;
 }
 
 /* grid item adds margin bottom to separate the partners below*/
@@ -34,7 +41,7 @@
   uniformity purposes */
 .wp-post-image {
   width: 200px;
-  height: 200px;
+  /*height: 200px;*/
 }
 
 /* Had to use !important -command to align the text in mid.
