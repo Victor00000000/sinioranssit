@@ -23,13 +23,20 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
   margin: 150px auto 100px auto;
-  max-width: 1300px;
-  align-items: justify;
-  */
+  max-width: 1300px; */
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: justify;
+  align-items: justify; 
+}
+
+/* centers partner logos inside div */
+.partner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
 
 /* grid item adds margin bottom to separate the partners below*/
@@ -40,7 +47,7 @@
 /* wp-post-image targets the partner images and makes them perfect squares for
   uniformity purposes */
 .wp-post-image {
-  width: 200px;
+  width: 200px; 
   /*height: 200px;*/
 }
 
