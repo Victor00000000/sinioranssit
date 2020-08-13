@@ -89,7 +89,7 @@
 }
 
 .search-term {
-  width: 75%;
+  width: 90% !important;
   box-sizing: border-box;
   border: none;
   padding: 15px 0;
