@@ -47,7 +47,7 @@ class Search {
     const newLocal = "http://sinioranssit.local/wp-json/wp/v2/posts?search="
     $.getJSON(newLocal + this.searchField.val(), posts => {
       this.resultsDiv.html(`
-        <h2 class="search-overlay__section-title">General Information</h2>
+        <h2 class="search-overlay__section-title">Hakutulokset</h2>
         <ul class="link-list min-list">
         ${posts.map(item => `<li><a href="#">${item.title.rendered}</a></li>`).join('')}
         </ul>
