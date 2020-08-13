@@ -22,15 +22,15 @@ function pageBanner($args = NULL) {
   }
 
   ?>
-  <div class="page-banner">
+<div class="page-banner">
     <div class="page-banner__bg-image" style="background-image: url(<?php echo $args['photo']; ?>);"></div>
     <div class="page-banner__content container container--narrow">
-      <h1 class="page-banner__title"><?php echo $args['title'] ?></h1>
-      <div>
-        <p class="page-banner__intro"><?php echo $args['subtitle']; ?></p>
-      </div>
-    </div>  
-  </div>
+        <h1 class="page-banner__title"><?php echo $args['title'] ?></h1>
+        <div>
+            <p class="page-banner__intro"><?php echo $args['subtitle']; ?></p>
+        </div>
+    </div>
+</div>
 <?php }
 
 function university_files() {
@@ -98,3 +98,13 @@ function addWidgetsArea() {
 }
 
 add_action( 'widgets_init', 'addWidgetsArea' );
+
+/**
+ * Turn off the email suggestion.
+ *
+ * @link  https://wpforms.com/developers/how-to-disable-the-email-suggestion-on-the-email-form-field/
+ * 
+ */
+ 
+// Disable email suggestion on Email form field
+add_filter( 'wpforms_mailcheck_enabled', '__return_false' );
