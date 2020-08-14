@@ -44,15 +44,15 @@ class Search {
   }
 
   getResults() {
-    const newLocal = "http://sinioranssit.local/wp-json/wp/v2/posts?search="
+    const newLocal = "https://sinioranssit.fi/wp-json/wp/v2/posts?search="
     $.getJSON(newLocal + this.searchField.val(), posts => {
       this.resultsDiv.html(`
         <h2 class="search-overlay__section-title">Hakutulokset</h2>
         <ul class="link-list min-list">
-        ${posts.map(item => `<li><a href="#">${item.title.rendered}</a></li>`).join('')}
+        ${posts.map(item => `<li><a href="${item.link}">${item.title.rendered}</a></li>`).join("")}
         </ul>
-      `);
-    });
+      `)
+    })
   }
 
   keyPressDispatcher(e) {
