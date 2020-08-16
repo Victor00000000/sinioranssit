@@ -1,5 +1,6 @@
 <?php
   get_header();
+  // displays post content
   while(have_posts()) {
     the_post();
     pageBanner();

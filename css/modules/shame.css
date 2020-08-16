@@ -13,30 +13,21 @@
 }
 
 
-/* holds all the partners
-    Aligns them in groups of five
-    aligns the content in mid
-    max-width makes them group accordingly */
+/* holds all the partners */
 .grid-container {
-  /*
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  margin: 150px auto 100px auto;
-  max-width: 1300px; */
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: justify;
 }
 
+
 /* centers partner logos inside div */
 .partner-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+  padding: 3em;
 }
 
 /* grid item adds margin bottom to separate the partners below*/
@@ -49,18 +40,16 @@
   
 }
 
-/* wp-post-image targets the partner images and makes them perfect squares for
-  uniformity purposes */
+/* setting width to all partner logos */
 .wp-post-image {
-  width: 200px; 
-  /*height: 200px;*/
+  width: 200px;
 }
 
-/* Had to use !important -command to align the text in mid.
-  Caution: if you change the properties of .wp-post-image
-  also change .partneri-mid accordingly*/
+/* aligning partner header text in mid if there isn't logo available */
 .partner-mid {
-  margin-top: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -177,7 +166,7 @@
   opacity: .75;
 }
 
-/* deleted all social media bg colors */
+/* deletes all social media bg colors */
 .social-color-facebook {background-color: }
 .social-color-twitter {background-color: }
 .social-color-youtube {background-color: }
@@ -244,7 +233,7 @@
   }
 }
 
-/* Seach Form */
+/* Search Form */
 .search-form {
   background-color: #DEDEDE;
   padding: 20px;
@@ -293,52 +282,4 @@
 .note-limit-message.active {
   visibility: visible;
   opacity: 1;
-}
-
-/* Like Box */
-.generic-content .like-box {
-  float: right;
-  font-size: 1rem;
-  background-color: #EDEDED;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
-  color: red;
-  padding: 10px 10px 10px 25px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 0 30px 30px;
-  position: relative;
-}
-
-.generic-content .like-box:hover {
-  background-color: #DEDEDE;
-}
-
-.like-count {
-  padding-left: 10px;
-}
-
-.like-box .fa-heart-o {
-  transition: all .35s ease-out;
-  position: absolute;
-  left: 10px;
-}
-
-.like-box .fa-heart {
-  left: 10px;
-  transition: all .4s ease-out;
-  position: absolute;
-  visibility: hidden;
-  transform: scale(.2);
-  opacity: 0;
-}
-
-.like-box[data-exists="yes"] .fa-heart {
-  transform: scale(1);
-  visibility: visible;
-  opacity: 1;
-}
-
-.like-box[data-exists="yes"] .fa-heart-o {
-  visibility: hidden;
-  opacity: 0;
 }

@@ -15,33 +15,6 @@
           </div>
         <?php }
       ?>
-
-      <?php 
-      $testArray = get_pages(array(
-        'child_of' => get_the_ID()
-      ));
-
-    //sidelinkbar, which appears if the page has childpages
-      if ($theParent or $testArray) { ?>
-        <div class="page-links">
-          <h2 class="page-links__title"><a href="<?php echo get_permalink($theParent); ?>"><?php echo get_the_title($theParent); ?></a></h2>
-          <ul class="min-list">
-            <?php
-              if ($theParent) {
-                $findChildrenOf = $theParent;
-              } else {
-                $findChildrenOf = get_the_ID();
-              }
-
-              wp_list_pages(array(
-                'title_li' => NULL,
-                'child_of' => $findChildrenOf,
-                'sort_column' => 'menu_order'
-              ));
-            ?>
-          </ul>
-        </div>
-      <?php } ?>
       
       <!-- display content from post-->
       <div class="generic-content">
