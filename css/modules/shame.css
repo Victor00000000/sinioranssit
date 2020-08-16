@@ -13,23 +13,14 @@
 }
 
 
-/* holds all the partners
-    Aligns them in groups of five
-    aligns the content in mid
-    max-width makes them group accordingly */
+/* holds all the partners */
 .grid-container {
-  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  margin: 150px auto 100px auto;
-  max-width: 1300px; 
-/*
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: justify; */
+  align-items: justify;
 }
+
 
 /* centers partner logos inside div */
 .partner-content {
@@ -49,7 +40,6 @@
   uniformity purposes */
 .wp-post-image {
   width: 200px; 
-  /*height: 200px;*/
 }
 
 /* Had to use !important -command to align the text in mid.
