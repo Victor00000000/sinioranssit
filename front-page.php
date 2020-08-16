@@ -57,14 +57,15 @@
 
 
 
-      <p class="t-center no-margin"><a href="<?php echo site_url('/ajankohtaista'); ?>" class="btn btn--yellow">Katso
+      <p class=" t-center no-margin"><a href="<?php echo site_url('/ajankohtaista'); ?>" class="btn btn--yellow">Katso
           kaikki uutiset</a></p>
     </div>
   </div>
 </div>
 </div>
-
+<h2 class="headline--small-plus t-center partneri-headline">Yhteistyökumppanit</h5>
 <div class="grid-container wrapper">
+  
   <?php
           $partneriPosts = new WP_Query(array(
             'post_type' => 'partneri',
