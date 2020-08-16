@@ -81,13 +81,13 @@
       <?php 
         if ( has_post_thumbnail() ) {
           ?>
-          <a href="<?php echo '//www.' . wp_strip_all_tags(get_the_content()); ?>">
+          <a href="<?php echo wp_strip_all_tags(get_the_content()); ?>" target="_blank">
           <?php the_post_thumbnail('Thumbnail'); ?></a>
           <?php }
         else {
           ?>
-          <h5 class="event-summary__title headline headline--tiny t-center partner-mid"><a
-          href="<?php echo '//www.' . wp_strip_all_tags(get_the_content()); ?>"><?php the_title(); ?></a></h5>
+          <h5 class="event-summary__title headline headline--tiny t-center partner-mid"><a class ="mopo"
+          href="<?php echo wp_strip_all_tags(get_the_content()); ?>" target="_blank"><?php the_title(); ?></a></h5>
           <?php
         } ?>
     </div>

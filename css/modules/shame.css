@@ -33,6 +33,11 @@
 /* grid item adds margin bottom to separate the partners below*/
 .grid-item {
   margin-bottom: 20px;
+  justify-content: center;
+}
+
+.mopo {
+  
 }
 
 /* setting width to all partner logos */
