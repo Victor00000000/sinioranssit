@@ -52,9 +52,6 @@ add_action('wp_enqueue_scripts', 'university_files');
 function sinioranssit_features() {
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
-  add_image_size('partneriLandscape', 400, 260, true); /* Image Cropping blugin: Image S Size */
-  add_image_size('partneriPortrait', 480, 650, true); /* Image Cropping blugin: Image M size */
-  add_image_size('partneriSquare', 700, 700, true); /*Image Copping blugin: Image square Size */
   add_image_size('pageBanner', 1500, 350, true); /* Image Cropping blugin: page Banner image size */
 }
 
