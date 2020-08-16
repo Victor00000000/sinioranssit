@@ -17,8 +17,8 @@
         <nav class="main-navigation">
           <ul>
             <li <?php if (is_page('tietoa-meista') or wp_get_post_parent_id(0) == 16) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/tietoa-meista') ?>">Tietoa meistä</a></li>
-            <li <?php if (is_page('liity-jaseneksi')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/liity-jaseneksi') ?>">Liity jäseneksi</a></li>
-            <li <?php if (is_page('tapahtumat')) echo 'class="current-menu-item"';  ?>><a href="<?php echo site_url('/tapahtumat') ?>">Tapahtumat</a></li>
+            <li <?php if (is_page('liity-jaseneksi')) echo 'class="current-menu-item"'?>><a href="<?php echo site_url('/liity-jaseneksi') ?>">Liity jäseneksi</a></li>
+            <li <?php if (is_page('tapahtumat')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/tapahtumat') ?>">Tapahtumat</a></li>
             <li <?php if (is_page('kuvagalleria')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/kuvagalleria') ?>">Kuvagalleria</a></li>
             <li <?php if (is_home('ajankohtaista')) echo 'class="current-menu-item"'; ?>><a href="<?php echo site_url('/ajankohtaista') ?>">Uutiset</a></li>
             <li <?php if (is_page('ota-yhteytta')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/ota-yhteytta'); ?>">Ota yhteyttä!</a></li>
