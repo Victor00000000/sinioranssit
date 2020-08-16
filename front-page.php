@@ -87,7 +87,7 @@
         else {
           ?>
           <h5 class="event-summary__title headline headline--tiny t-center partner-mid"><a class ="mopo"
-          href="<?php echo '//www.' . wp_strip_all_tags(get_the_content()); ?>" target="_blank"><?php the_title(); ?></a></h5>
+          href="<?php echo wp_strip_all_tags(get_the_content()); ?>" target="_blank"><?php the_title(); ?></a></h5>
           <?php
         } ?>
     </div>
