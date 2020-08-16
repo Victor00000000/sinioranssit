@@ -1,2 +1,2 @@
 # sinioranssit
-Sinioranssit ry:lle tehty wordpress nettisivu
+Website made for Sinioranssit ry.
