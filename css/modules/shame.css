@@ -27,8 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-  width: 500px;
+  padding: 3em;
 }
 
 /* grid item adds margin bottom to separate the partners below*/
