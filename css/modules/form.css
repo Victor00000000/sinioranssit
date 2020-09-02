@@ -6,7 +6,8 @@ table.pdb-signup {
   margin: 0 auto;
 }
 
-.pdb-thanks p {
+.pdb-thanks p,
+.nf-response-msg p {
   color: green;
 }
 
@@ -89,16 +90,18 @@ input[type="submit"]:hover {
   color: red;
 }
 
-/* Ota yhteyttä formi */
-.wpforms-form {
-  width: 80%;
+/* Ota yhteyttä formi ja reissu formi */
+.wpforms-form,
+.nf-form-content {
+  width: 90%;
   border-radius: 6px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 20px !important;
   margin: 0 auto;
 }
 
-.wpforms-submit {
+.wpforms-submit,
+.ninja-forms-field[type="button"] {
   height: 40px !important;
   background-color: $orange !important;
   margin: 20px !important;
@@ -107,6 +110,14 @@ input[type="submit"]:hover {
   color: black !important;
 }
 
-.wpforms-submit:hover {
+.wpforms-submit:hover,
+.ninja-forms-field[type="button"]:hover {
   background-color: #fe8e43 !important;
+}
+
+.nf-form-content input:not([type="button"]),
+.nf-form-content textarea,
+.nf-form-content .list-select-wrap .nf-field-element > div,
+.checkbox-wrap .nf-field-label label:after {
+  background-color: #fff !important;
 }
